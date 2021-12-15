@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 
 export default function CardComponent() {
   return (
-    <Card>
+    <Card bg="success" text="dark">
       <Card.Body>
         <Card.Title>This is a Card Title</Card.Title>
         <Card.Text>
