@@ -3,6 +3,8 @@ import React from "react";
 import NavbarComponent from "./components/Navbar";
 import CardComponent from "./components/Card";
 import Jumbo from "./components/Jumbo";
+import Footer from "./components/Footer";
+import About from "./components/About";
 
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -11,6 +13,7 @@ export default function App() {
     <>
       <NavbarComponent />
       <Jumbo />
+      <About/>
       <Container>
         <Row>
           <Col>
@@ -24,6 +27,7 @@ export default function App() {
           </Col>
         </Row>
       </Container>
+      <Footer/>
     </>
   );
 }
