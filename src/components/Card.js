@@ -6,7 +6,7 @@ export default function CardComponent() {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>This is a Card Title</Card.Title>
+        <Card.Title>New Card Title</Card.Title>
         <Card.Text>
           <p>
             Esse nulla nostrud tempor sint mollit consequat quis consequat
